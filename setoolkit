@@ -9,7 +9,7 @@ import sys
 # Py2/3 compatibility
 # Python3 renamed raw_input to input
 try:
-    input = raw_input
+    input = raw_input()
 except NameError:
     pass
 
